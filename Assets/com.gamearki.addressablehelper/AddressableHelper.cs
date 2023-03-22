@@ -316,7 +316,6 @@ namespace GameArki.AddressableHelper {
                 var name = group.GetType().GetProperty("Name").GetValue(group).ToString();
                 if (name == groupName) {
                     tarGroup_obj = group;
-                    Debug.Log($"找到组:{groupName}");
                     break;
                 }
             }
